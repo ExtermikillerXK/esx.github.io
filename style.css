@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(white, white, grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(grey, black);
+}
+
+.blinker-anim {
+ animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+    50% {
+        opacity: 0;
+    }
+}
